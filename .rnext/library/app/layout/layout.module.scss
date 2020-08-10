@@ -1,0 +1,119 @@
+@import "./../automatic/theme.scss";
+
+.layout {
+  height: 100%;
+}
+
+.sider {
+  position: relative;
+  display: flex;
+  width: 240px;
+  border-right: solid 1px $border-color-base;
+  :global(.ant-menu-submenu-title) {
+    display: flex;
+  }
+  :global(.ant-layout-sider-children) {
+    background: #F7F8FA;
+  }
+  :global(.ant-menu) {
+    background: #F7F8FA;
+  }
+  :global(.ant-layout-sider) {
+    width: 239px !important;
+    min-width: 239px !important;
+    max-width: 239px !important;
+  }
+  :global(.ant-menu-inline) {
+    border-right: none;
+  }
+}
+
+.siderCollapsed {
+  width: 20px;
+  :global(.ant-layout-sider) {
+    min-width: 19px !important;
+    max-width: 19px !important;
+  }
+}
+
+.group {
+  display: flex;
+  margin-bottom: 0em;
+  align-items: center;
+}
+
+.groupDesc {
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.groupIcon {
+  font-size: 14px;
+}
+
+.appName {
+  font-size: 16px;
+  padding: 0 16px;
+  margin-bottom: 0;
+  font-weight: bold;
+  text-indent: 8px;
+}
+
+.shrink {
+  position: absolute;
+  top: 10px;
+  left: 226px;
+  width: 26px;
+  height: 26px; 
+  line-height: 24px;
+  border-radius: 50%;
+  border: solid 1px $primary-color;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  z-index: 9;
+  background: #FFF;
+  &:hover {
+    background: $primary-color;
+    color: #FFF;
+  }
+}
+
+.shrinkCollapsed {
+  left: 5px;
+  transform:rotate(180deg);
+}
+
+.content {
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  padding: 0 20px 20px 20px;
+  background: #F7F8FA;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: block;
+  font-size: 30px;
+}
+
+.user {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  p {
+    margin-bottom: 0;
+    line-height: 16px;
+  }
+  div {
+    margin-right: 10px;
+  }
+}

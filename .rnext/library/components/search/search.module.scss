@@ -1,0 +1,33 @@
+.searchComp {
+  position: relative;
+  width: 400px;
+}
+
+.searchSuffix {
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.resetIcon {
+  margin-right: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.searchForm {
+  display: none;
+  position: absolute;
+  top: 32px;
+  left: 0%;
+  right: 0;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: -1px 1px 2px #ddd;
+  z-index: 1;
+}
+
+.showAdvanceModal {
+  display: block;
+}

@@ -1,0 +1,14 @@
+.iconList {
+  display: flex;
+  margin: 20px;
+  p {
+    width: 60px;
+    text-align: center;
+  }
+  span {
+    display: block;
+    &:first-child {
+      font-size: 18px;
+    }
+  }
+}

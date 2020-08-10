@@ -1,0 +1,1 @@
+export const PACKAGE_NAME = "sales";export const IPFS_MODULE = "sales";

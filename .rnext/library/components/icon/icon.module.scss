@@ -1,0 +1,36 @@
+@import "./../../app/automatic/theme.scss";
+@font-face {
+  font-family: 'welinkin';  /* project id 1378845 */
+  src: url('//at.alicdn.com/t/font_1378845_nbtmldwq8ok.eot');
+  src: url('//at.alicdn.com/t/font_1378845_nbtmldwq8ok.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1378845_nbtmldwq8ok.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1378845_nbtmldwq8ok.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1378845_nbtmldwq8ok.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1378845_nbtmldwq8ok.svg#welinkin') format('svg');
+}
+
+.icon {
+  font-family: welinkin;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.success {
+  color: $primary-color;
+}
+
+.warning {
+  color: $error-color;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+.iconGroup {
+  height: 16px;
+  line-height: 16px;
+  span {
+    margin-left: 8px;
+  }
+}

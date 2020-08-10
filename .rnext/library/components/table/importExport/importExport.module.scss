@@ -1,0 +1,25 @@
+@import "./../../../app//automatic/theme.scss";
+
+.box {
+  display: flex;
+  height: $btn-height-base;
+  border: solid 1px $primary-color;
+  border-radius: $border-radius-base;
+  span {
+    display: flex;
+    width: $btn-height-base;
+    height: $btn-height-base - 2;
+    border-left: solid 1px $primary-color;
+    align-items: center;
+    justify-content: center;
+    color: $primary-color;
+    cursor: pointer;
+    &:first-child {
+      border-left: none;
+    }
+    &:hover {
+      background: $primary-color;
+      color: #FFF;
+    }
+  }
+}
